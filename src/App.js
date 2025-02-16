@@ -15,7 +15,7 @@ import Contact from './components/contact/Contact';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/fachion_react">
         <ScrollToTop />
         <Header />
 
