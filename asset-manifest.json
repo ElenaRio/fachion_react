@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/fachion_react/static/css/main.2e5ae946.css",
+    "main.js": "/fachion_react/static/js/main.34039d3c.js",
+    "static/media/Rectangle 24.png": "/fachion_react/static/media/Rectangle 24.7974080a7aa7b774b01f.png",
+    "static/media/header-img.jpg": "/fachion_react/static/media/header-img.3266b145a803ea6064bc.jpg",
+    "static/media/cat-02.jpg": "/fachion_react/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/tShirt04.jpg": "/fachion_react/static/media/tShirt04.6b5febc493c20bef4af7.jpg",
+    "static/media/coats02.jpg": "/fachion_react/static/media/coats02.fc4e8804247d2d78abe7.jpg",
+    "static/media/tShirt03.jpg": "/fachion_react/static/media/tShirt03.2e22a90359b8c36c5cb5.jpg",
+    "static/media/cat-01.jpg": "/fachion_react/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
+    "static/media/tShirt05.jpg": "/fachion_react/static/media/tShirt05.cd7fe3cfbede7119505c.jpg",
+    "static/media/tShirt01.jpg": "/fachion_react/static/media/tShirt01.108f0c6d77b265a119d2.jpg",
+    "static/media/promo-01.jpg": "/fachion_react/static/media/promo-01.4fc3ca39e368bb92d886.jpg",
+    "static/media/coats01.jpg": "/fachion_react/static/media/coats01.68dc6c42c8e9c03a3ce5.jpg",
+    "static/media/vouchers-img.png": "/fachion_react/static/media/vouchers-img.254242f146515a766546.png",
+    "static/media/tShirt02.jpg": "/fachion_react/static/media/tShirt02.cc827f36373121e9e144.jpg",
+    "static/media/cat-03.jpg": "/fachion_react/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
+    "static/media/promo-02.jpg": "/fachion_react/static/media/promo-02.27a2e3f6b94c48d6427b.jpg",
+    "static/media/promo-img.jpg": "/fachion_react/static/media/promo-img.ce776330d867b95716b9.jpg",
+    "static/media/Shopify.png": "/fachion_react/static/media/Shopify.b4131342ebf309c24258.png",
+    "static/media/Amazon.png": "/fachion_react/static/media/Amazon.7897112af9316cea076c.png",
+    "static/media/logo.svg": "/fachion_react/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/inst.svg": "/fachion_react/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
+    "index.html": "/fachion_react/index.html",
+    "static/media/in.svg": "/fachion_react/static/media/in.4129b910559039efab168699f9e7c86f.svg",
+    "static/media/burger.svg": "/fachion_react/static/media/burger.df5036e5bb24d3bc91a7dfcc84872530.svg",
+    "static/media/arrow.svg": "/fachion_react/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/fb.svg": "/fachion_react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/delete.svg": "/fachion_react/static/media/delete.0bc6da048ea47615deaa4fd1f061ba67.svg",
+    "static/media/decor-yellow.svg": "/fachion_react/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.2e5ae946.css.map": "/fachion_react/static/css/main.2e5ae946.css.map",
+    "main.34039d3c.js.map": "/fachion_react/static/js/main.34039d3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e5ae946.css",
+    "static/js/main.34039d3c.js"
+  ]
+}
