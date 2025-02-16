@@ -1,0 +1,128 @@
+.headerList {
+  display: flex;
+  column-gap: 65px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.headerList a {
+  color: var(--textColor);
+}
+a.headerNavBtn {
+  color: white;
+  font-size: 24px;
+  background-color: var(--textColor);
+  padding: 13px 22px 17px;
+  border-radius: 7px;
+}
+.list {
+  color: black;
+  transition: opacity 0.2s ease-in;
+}
+.list:hover {
+  color: #ebd96b;
+  opacity: 0.8;
+}
+.linkActive {
+  position: relative;
+}
+
+.linkActive::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #ebd96b;
+}
+.menuBtn {
+  display: none;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+.menuBtn img {
+  width: 20px;
+}
+.menuCloseBtn img {
+  width: 18px;
+}
+.menuClose {
+  display: none;
+}
+.menuOOclose {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: background-color 10s ease;
+}
+@media (max-width: 1300px) {
+  .headerList {
+    column-gap: 40px;
+    font-size: 20px;
+  }
+  a.headerNavBtn {
+    font-size: 20px;
+    padding: 13px 22px 17px;
+  }
+}
+@media (max-width: 1100px) {
+  .headerList {
+    column-gap: 20px;
+    font-size: 16px;
+  }
+  a.headerNavBtn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 868px) {
+  .headerList.menuListOOopen {
+    transform: translateY(0%);
+  }
+  .headerList {
+    transform: translateY(-100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #010101;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+    text-align: center;
+    z-index: 10;
+    transition: transform 0.5s ease;
+  }
+  .menuClose {
+    display: block;
+  }
+  .menuCloseBtn {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+  }
+  .menuBtn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .list {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,36 @@
+.arrivals {
+  padding-top: 120px;
+  padding-bottom: 143px;
+}
+.arrivalsHeader {
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+  column-gap: 30px;
+  margin-top: 100px;
+}
+@media (max-width: 876px) {
+  .arrivals {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .cards {
+    column-gap: 10px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .arrivals {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+  }
+}

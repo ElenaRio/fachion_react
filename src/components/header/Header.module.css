@@ -1,0 +1,52 @@
+.header {
+  padding: 46px 56px;
+}
+.headerRow {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerLogo {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+.logoText {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.headerNav {
+}
+@media (max-width: 1100px) {
+  .header {
+    padding: 40px 20px;
+  }
+  .logoText {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 876px) {
+  .header {
+    padding: 40px 20px;
+  }
+  .logoText {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    padding: 40px 20px;
+  }
+  .logoText {
+    font-size: 20px;
+  }
+  .headerLogo img {
+    width: 20px;
+  }
+}

@@ -1,0 +1,137 @@
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.social h3 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.social p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8e8e8e;
+}
+.footerList {
+  display: flex;
+  column-gap: 16px;
+}
+.listSocial {
+  display: flex;
+  column-gap: 20px;
+}
+.listSocial ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 220px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8e8e8e;
+}
+.listWhite {
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  .listSocial {
+    display: flex;
+    column-gap: 0px;
+  }
+  .listSocial ul {
+    gap: 20px;
+    width: 150px;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .social h3 {
+    font-size: 32px;
+  }
+  .social p {
+    font-size: 18px;
+  }
+  .social {
+    max-width: 300px;
+    gap: 20px;
+  }
+  .footerList img {
+    width: 40px;
+  }
+}
+@media (max-width: 876px) {
+  .footerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .listSocial {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .listSocial ul {
+    gap: 15px;
+    width: 200px;
+    font-size: 14px;
+  }
+  .social h3 {
+    font-size: 24px;
+  }
+  .social p {
+    font-size: 14px;
+  }
+  .social {
+    max-width: 300px;
+    gap: 20px;
+  }
+  .footerList img {
+    width: 30px;
+  }
+  .social p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .footerWrapper {
+    gap: 20px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .social h3 {
+    font-size: 24px;
+  }
+  .social p {
+    font-size: 18px;
+  }
+  .social {
+    max-width: 300px;
+    gap: 20px;
+  }
+  .footerList img {
+    width: 30px;
+  }
+  .social p {
+    font-size: 16px;
+  }
+}

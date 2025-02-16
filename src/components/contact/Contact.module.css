@@ -1,0 +1,89 @@
+.contact {
+  padding-top: 60px;
+  padding-bottom: 200px;
+}
+.contactDesc {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.wrapper {
+  display: flex;
+  column-gap: 32px;
+  justify-content: space-between;
+}
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactSection h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.contactSection ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contactSection ul li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+@media (max-width: 876px) {
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  .contactDesc {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .wrapper {
+    display: flex;
+    column-gap: 15px;
+    justify-content: space-between;
+  }
+  .contactSection h3 {
+    font-size: 22px;
+  }
+  .contactSection ul li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .contactDesc {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .contactSection h3 {
+    font-size: 18px;
+  }
+  .contactSection ul li {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+  }
+}
