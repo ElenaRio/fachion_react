@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fachion_react/static/css/main.2e5ae946.css",
-    "main.js": "/fachion_react/static/js/main.34039d3c.js",
+    "main.js": "/fachion_react/static/js/main.a784f393.js",
     "static/media/Rectangle 24.png": "/fachion_react/static/media/Rectangle 24.7974080a7aa7b774b01f.png",
     "static/media/header-img.jpg": "/fachion_react/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/cat-02.jpg": "/fachion_react/static/media/cat-02.da44a5e6d64780d948d6.jpg",
@@ -30,10 +30,10 @@
     "static/media/delete.svg": "/fachion_react/static/media/delete.0bc6da048ea47615deaa4fd1f061ba67.svg",
     "static/media/decor-yellow.svg": "/fachion_react/static/media/decor-yellow.a14a51327547871fd595.svg",
     "main.2e5ae946.css.map": "/fachion_react/static/css/main.2e5ae946.css.map",
-    "main.34039d3c.js.map": "/fachion_react/static/js/main.34039d3c.js.map"
+    "main.a784f393.js.map": "/fachion_react/static/js/main.a784f393.js.map"
   },
   "entrypoints": [
     "static/css/main.2e5ae946.css",
-    "static/js/main.34039d3c.js"
+    "static/js/main.a784f393.js"
   ]
 }
