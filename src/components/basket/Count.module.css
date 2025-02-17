@@ -40,11 +40,4 @@
     height: 20px;
   }
 }
-@media (max-width: 570px) {
-  .countUP img {
-    width: 10px;
-  }
-  .countDOWN img {
-    width: 10px;
-  }
-}
+

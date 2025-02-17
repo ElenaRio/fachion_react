@@ -1,7 +1,7 @@
 .basketProduct {
   display: grid;
   align-items: center;
-  grid-template-columns: 2fr repeat(3, 3fr) 0.5fr;
+  grid-template-columns: 2fr repeat(3, 3fr) 0.8fr;
   column-gap: 30px;
   padding: 20px 20px;
   border-bottom: 1px solid rgba(126, 155, 189, 0.3);
@@ -30,7 +30,7 @@
 }
 @media (max-width: 570px) {
   .basketProduct {
-    grid-template-columns: 2fr repeat(2, 3fr) 0.5fr;
+    grid-template-columns: 2fr repeat(2, 2fr) 1fr;
     font-size: 14px;
     line-height: 1;
     padding: 10px 10px;
@@ -45,7 +45,5 @@
   .price {
     font-size: 12px;
   }
-  .controls {
-    width: 15px;
-  }
+ 
 }
