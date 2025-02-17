@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fachion_react/static/css/main.2e5ae946.css",
-    "main.js": "/fachion_react/static/js/main.a784f393.js",
+    "main.css": "/fachion_react/static/css/main.7ddf4880.css",
+    "main.js": "/fachion_react/static/js/main.f301873a.js",
     "static/media/Rectangle 24.png": "/fachion_react/static/media/Rectangle 24.7974080a7aa7b774b01f.png",
     "static/media/header-img.jpg": "/fachion_react/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/cat-02.jpg": "/fachion_react/static/media/cat-02.da44a5e6d64780d948d6.jpg",
@@ -28,12 +28,15 @@
     "static/media/arrow.svg": "/fachion_react/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/fb.svg": "/fachion_react/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "static/media/delete.svg": "/fachion_react/static/media/delete.0bc6da048ea47615deaa4fd1f061ba67.svg",
+    "static/media/cross.svg": "/fachion_react/static/media/cross.0b91fc7b2788823fe71dea4dbf7099a7.svg",
     "static/media/decor-yellow.svg": "/fachion_react/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.2e5ae946.css.map": "/fachion_react/static/css/main.2e5ae946.css.map",
-    "main.a784f393.js.map": "/fachion_react/static/js/main.a784f393.js.map"
+    "static/media/icon-down.svg": "/fachion_react/static/media/icon-down.1ed177a13d2799788512eec811eafc83.svg",
+    "static/media/icon-up.svg": "/fachion_react/static/media/icon-up.ba915e66e53d365fbe7a921aebb9fbd9.svg",
+    "main.7ddf4880.css.map": "/fachion_react/static/css/main.7ddf4880.css.map",
+    "main.f301873a.js.map": "/fachion_react/static/js/main.f301873a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e5ae946.css",
-    "static/js/main.a784f393.js"
+    "static/css/main.7ddf4880.css",
+    "static/js/main.f301873a.js"
   ]
 }
