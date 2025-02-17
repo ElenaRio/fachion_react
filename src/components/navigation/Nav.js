@@ -77,9 +77,9 @@ function Nav() {
           </NavLink>
         </li>
         <li>
-          <a className={styles.headerNavBtn} href="#!" onClick={closeMenu}>
-            SIGN UP
-          </a>
+          <NavLink to="/basket" onClick={closeMenu} className={styles.headerNavBtn} >
+            CART
+          </NavLink>
         </li>
       </ul>
     </>

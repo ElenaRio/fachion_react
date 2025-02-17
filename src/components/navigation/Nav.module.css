@@ -18,6 +18,10 @@ a.headerNavBtn {
   padding: 13px 22px 17px;
   border-radius: 7px;
 }
+a.headerNavBtn:hover{
+  background-color: #ebd96b;
+  color: #010101;
+}
 .list {
   color: black;
   transition: opacity 0.2s ease-in;

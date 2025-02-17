@@ -1,0 +1,29 @@
+.basketFooter {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+  column-gap: 30px;
+  padding: 22px 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.count {
+  grid-column-start: 3;
+}
+@media (max-width: 876px) {
+  .basketFooter {
+    font-size: 16px;
+    line-height: 1;
+  }
+}
+@media (max-width: 570px) {
+  .count {
+    grid-column-start: 2;
+  }
+  .basketFooter {
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0;
+    grid-template-columns: 2fr repeat(2, 2fr) 1fr;
+  }
+}
